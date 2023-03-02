@@ -85,21 +85,29 @@ li{
 }
 
 .items-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   gap: 4rem;
 }
 
+
+.items-left{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
 .items-left li{
+
   margin-top: 2rem;
   color: white;
   font-size: 1.7rem;
   font-weight: 400;
+
 }
 
-.items-left li{
-  margin-top: 2rem;
-  color: white;
-  font-size: 1.7rem;
+.items-right{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .items-right li{
