@@ -55,7 +55,7 @@ li{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 5rem 0 5rem;
+  padding: 1rem 2rem 1rem 2rem;
 }
 
 .card-left figure {
@@ -157,6 +157,15 @@ li{
     border-radius: 50%;
   }
 
+  
+  .items-left li{
+    margin-top: .5rem;
+  }
+  
+  .items-right li{
+    margin-top: .5rem;
+  }
+
 
 }
 
@@ -175,7 +184,7 @@ li{
     font-size: 1.5rem;
   }
   
-  .items-left li{
+  .items-right li{
     font-size: 1.5rem;
   }
 
