@@ -28,6 +28,7 @@ li{
 .card{
   width: 70%;
   height: 70%;
+  max-height: 710px;
   margin: auto;
   position: absolute;
   top: 50%;
@@ -153,6 +154,7 @@ li{
 
 @media screen and (max-width: 580px){
 
+
   .title{
     font-size: 2.5rem;
   }
@@ -169,6 +171,16 @@ li{
     font-size: 1.5rem;
   }
 
+
+}
+
+
+@media screen and (max-width: 520px){
+
+  .card{
+    width: 95%;
+    height: 95%;
+  }
 
 }
 
